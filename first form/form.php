@@ -13,7 +13,7 @@ class Form{
     }
 // function with variable $html. The function is called inside other functions with $this->surround()
     private function surround($html){
-        return "<{$this->surround}>{$html}</{$this->surround}>";
+        return "<{$this->surround}>$html</{$this->surround}>";
     }
 // function with if else statement
     private function getValue($index){
