@@ -7,7 +7,6 @@ class Form{
     private $data;
     public $surround = 'p';
 // __construct = special function that is executed automatically when the class is initiated
-//
     public function __construct($data){
         $this->data = $data;
     }
